@@ -14,7 +14,7 @@ Hello 👋, I'm Anand Kumar, an MSc. (Thesis) student at the University of Calga
 
 ## 🌐 Me around the web:
 
-[![Portfolio](https://img.shields.io/badge/personal--portfolio-000?style=for-the-badge)](https://anandkumarrajpal.github.io) [![Linkedin: anand-kumar-rajpal](https://img.shields.io/badge/anand--kumar--rajpal-000?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/anand-kumar-rajpal/) [![Email: anandrajpal123@gmail.com](https://img.shields.io/badge/Email-000?style=for-the-badge&logo=gmail)](mailto:anandrajpal123@gmail.com) [![HackerRank: ak05173](https://img.shields.io/badge/hackerrank-000?style=for-the-badge&logo=hackerrank)](https://www.hackerrank.com/ak05173)
+[![Portfolio](https://img.shields.io/badge/personal%20portfolio-000?style=for-the-badge)](https://anandkumarrajpal.github.io) [![Linkedin: anand-kumar-rajpal](https://img.shields.io/badge/LinkedIn-000?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/anand-kumar-rajpal/) [![Email: anandrajpal123@gmail.com](https://img.shields.io/badge/Email-000?style=for-the-badge&logo=gmail)](mailto:anandrajpal123@gmail.com) [![HackerRank: ak05173](https://img.shields.io/badge/hackerrank-000?style=for-the-badge&logo=hackerrank)](https://www.hackerrank.com/ak05173)
 
 ## 🛠️ My Skills
 
@@ -65,7 +65,7 @@ Hello 👋, I'm Anand Kumar, an MSc. (Thesis) student at the University of Calga
 ![Nginx](https://img.shields.io/badge/-Nginx-000?&logo=Nginx)
 ![Chef](https://img.shields.io/badge/-Chef-000?&logo=Chef)
  -->
-Last Edited on: 11/05/2024
+Last Edited on: 25/08/2025
 
 <!--
 **AnandKumarRajpal/AnandKumarRajpal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
