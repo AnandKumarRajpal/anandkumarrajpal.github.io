@@ -6,21 +6,15 @@
           <p class="code-style darkText section-heading my-0">01 - About Me</p>
           <v-divider class="ml-4"></v-divider>
         </v-row>
+
         <p>
-          Hello, I'm Anand Kumar, an MSc. CS (Thesis) student at the <a href="https://ucalgary.ca/" target="_blank" class="darkText link">
-            University of Calgary</a>.
+          Hi! 👋 I'm Anand Kumar, an MSc. Computer Science (Thesis) student at the University of Calgary, supervised by Aditya Shekhar Nittala. I'm passionate about solving complex problems and exploring innovative technologies at the intersection of Artificial Intelligence 🤖 and Human-Computer Interaction 🖥️.
         </p>
         <p>
-          I am a passionate problem solver 💡 and a technophile with a keen interest in the latest technologies 🚀
+          My research focuses on designing intelligent and adaptive systems that enhance accessibility and usability. I'm particularly interested in machine learning, multimodal interaction techniques, and creating human-centered AI solutions that positively impact people's lives 🌱.
         </p>
         <p>
-          I'm particularly interested in deep learning and full-stack development 👨‍💻
-        </p>
-        <p>
-          I have been working as a Software Engineer for the past 2 years, where I've had the privilege of showcasing my skills and expertise in developing innovative products 🌟
-        </p>
-        <p>
-          I believe in using my knowledge and experience to make a positive impact on society 🌱
+          Previously, I completed my BSc in Computer Science at Habib University, Karachi, and worked as a Software Engineer for 2+ years, where I developed end-to-end applications, optimized performance, and delivered user-focused solutions.
         </p>
       </v-col>
     </v-row>

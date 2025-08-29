@@ -172,17 +172,18 @@
         data-aos="fade-up-right"
         data-aos-offset="250"
       ></c-work-experience>
-      <c-education data-aos="fade-up-left" data-aos-offset="250"></c-education>
-      <c-projects data-aos="fade-up-right" data-aos-offset="250"></c-projects>
+      <c-research data-aos="fade-up-left" data-aos-offset="250"></c-research>
+      <c-education data-aos="fade-up-right" data-aos-offset="250"></c-education>
+      <c-projects data-aos="fade-up-left" data-aos-offset="250"></c-projects>
       <c-achievements
-        data-aos="fade-up-left"
+        data-aos="fade-up-right"
         data-aos-offset="250"
       ></c-achievements>
       <c-community-projects
-        data-aos="fade-up-right"
+        data-aos="fade-up-left"
         data-aos-offset="250"
       ></c-community-projects>
-      <c-contact data-aos="fade-up-left" data-aos-offset="250"></c-contact>
+      <c-contact data-aos="fade-up-right" data-aos-offset="250"></c-contact>
       <c-footer></c-footer>
     </v-main>
   </v-app>
@@ -199,6 +200,7 @@ import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer.vue";
 import PageLoader from "./components/PageLoader.vue";
 import CommunityProjects from "./components/CommunityProjects.vue";
+import Research from "./components/Research.vue";
 import { mapGetters } from "vuex";
 
 export default {
@@ -219,6 +221,7 @@ export default {
     cFooter: Footer,
     cPageLoader: PageLoader,
     cCommunityProjects: CommunityProjects,
+    cResearch: Research,
   },
 
   data: () => ({
@@ -230,6 +233,12 @@ export default {
         title: "Work Experience",
         icon: "briefcase",
         mobIcon: "mdi-briefcase",
+      },
+      {
+        link: "#research",
+        title: "Research",
+        icon: "flask",
+        mobIcon: "mdi-flask",
       },
       {
         link: "#education",

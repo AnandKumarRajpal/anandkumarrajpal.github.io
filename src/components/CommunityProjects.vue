@@ -3,11 +3,11 @@
         <v-row class="main-container">
             <v-col class="px-0 py-0">
                 <v-row class="mx-0 mb-4 my-0 align-center">
-                    <p class="code-style darkText section-heading my-0">02.05 - Community Engagement</p>
+                    <p class="code-style darkText section-heading my-0">02.06 - Community Engagement</p>
                     <v-divider class="ml-4"></v-divider>
                 </v-row>
                 <v-row class="mx-0 mb-4 my-0 align-center">
-                    <p class="code-style darkText section-heading my-0">02.05.01 - Teaching</p>
+                    <p class="code-style darkText section-heading my-0">02.06.01 - Teaching</p>
                     <v-divider class="ml-4"></v-divider>
                 </v-row>
                 <v-card elevation="10">
@@ -69,7 +69,7 @@
                     </v-tabs>
                 </v-card>
                 <v-row class="mx-0 my-4 my-0 align-center">
-                    <p class="code-style darkText section-heading my-0">02.05.02 - Development</p>
+                    <p class="code-style darkText section-heading my-0">02.06.02 - Development</p>
                     <v-divider class="ml-4"></v-divider>
                 </v-row>
                 <v-card elevation="10">

@@ -48,6 +48,12 @@ export default new Vuex.Store({
       const achievementsList = achievementsSnapshot.docs.map((doc) => doc.data());
       return achievementsList
     },
+    async getResearch() {
+      const researchCol = collection(db, "research");
+      const researchSnapshot = await getDocs(researchCol);
+      const researchList = researchSnapshot.docs.map((doc) => doc.data());
+      return researchList
+    },
   },
   modules: {
   }

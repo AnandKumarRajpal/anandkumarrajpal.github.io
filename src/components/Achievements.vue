@@ -3,7 +3,7 @@
     <v-row class="main-container">
       <v-col class="px-0 py-0">
         <v-row class="mx-0 mb-4 my-0 align-center">
-          <p class="code-style darkText section-heading my-0">02.04 - Achievements</p>
+          <p class="code-style darkText section-heading my-0">02.05 - Achievements</p>
           <v-divider class="ml-4"></v-divider>
         </v-row>
         <v-row class="mx-0 my-0">

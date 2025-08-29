@@ -31,22 +31,16 @@ export default {
   data() {
     return {
       icons: [
-        "mdi-facebook",
-        "mdi-twitter",
         "mdi-linkedin",
+        "mdi-twitter",
         "mdi-github",
-        "mdi-whatsapp",
         "mdi-email",
-        "mdi-phone",
       ],
       iconLink: [
-        "https://www.facebook.com/Anand.Kumar.Rajpal",
-        "https://twitter.com/rajpal_anand",
         "https://www.linkedin.com/in/anand-kumar-rajpal/",
+        "https://twitter.com/rajpal_anand",
         "https://github.com/AnandKumarRajpal/",
-        "https://wa.me/14033974960",
-        "mailto:anandrajpal123@gmail.com",
-        "tel:+14033974960",
+        "mailto:anandrajpal123@gmail.com"
       ],
     };
   },
