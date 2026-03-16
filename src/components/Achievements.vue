@@ -32,40 +32,16 @@
 
 <script>
 import AchievementCard from "./AchievementCard.vue";
-import { mapActions, mapMutations } from "vuex";
+import { achievements } from "@/data";
 
 export default {
   name: "c-achievements",
-  data() {
-    return {
-      achievementsList: [],
-    };
-  },
-  created() {
-    this.setLoadingTrue();
-    this.getAchievementsList();
-  },
   components: {
     cAchievementCard: AchievementCard,
   },
-  methods: {
-    ...mapActions({
-      getAchievements: "getAchievements",
-    }),
-    getAchievementsList() {
-      this.getAchievements().then((response) => {
-        this.achievementsList = response;
-        this.setLoadingFalse();
-      });
-    },
-    ...mapMutations({
-      setLoadingTrue: "SET_LOADING_TRUE",
-      setLoadingFalse: "SET_LOADING_FALSE",
-    }),
-  },
   computed: {
     achievements() {
-      return this.achievementsList.slice().reverse();
+      return [...achievements].reverse();
     },
   },
 };

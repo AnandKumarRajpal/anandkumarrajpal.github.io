@@ -1,11 +1,5 @@
 <template>
   <v-app dark class="c-bg">
-    <!-- PageLoader -->
-    <transition name="custom-fade" mode="out-in">
-      <c-page-loader v-if="isLoading"></c-page-loader>
-    </transition>
-    <!-- PageLoader end -->
-
     <div
       class="d-flex justify-center w-100 h-100 bg bg-top"
       :style="{ backgroundImage: 'url(' + require('@/assets/bg.png') + ')' }"
@@ -84,14 +78,8 @@
             </v-btn>
 
             <v-btn icon @click="toggleDarkMode()">
-              <transition name="slide-fade" mode="out-in">
-                <span v-if="darkMode" key="1"
-                  ><i class="fa-solid fa-xl fa-sun"></i
-                ></span>
-                <span v-else key="2"
-                  ><i class="fa-solid fa-xl fa-moon"></i
-                ></span>
-              </transition>
+              <span v-if="darkMode"><i class="fa-solid fa-xl fa-sun"></i></span>
+              <span v-else><i class="fa-solid fa-xl fa-moon"></i></span>
             </v-btn>
           </div>
 
@@ -147,14 +135,8 @@
 
           <v-list-item @click="toggleDarkMode()">
             <v-list-item-icon>
-              <transition name="slide-fade" mode="out-in">
-                <span v-if="darkMode" key="1"
-                  ><i class="fa-solid fa-xl fa-sun"></i
-                ></span>
-                <span v-else key="2"
-                  ><i class="fa-solid fa-xl fa-moon"></i
-                ></span>
-              </transition>
+              <span v-if="darkMode"><i class="fa-solid fa-xl fa-sun"></i></span>
+              <span v-else><i class="fa-solid fa-xl fa-moon"></i></span>
             </v-list-item-icon>
             <v-list-item-title
               >Switch to {{ themeOpposite }} mode</v-list-item-title
@@ -166,24 +148,15 @@
     <!-- Navbar end -->
 
     <v-main>
-      <HelloWorld data-aos="fade-up-right" />
-      <c-about data-aos="fade-up-left" data-aos-offset="250"></c-about>
-      <c-work-experience
-        data-aos="fade-up-right"
-        data-aos-offset="250"
-      ></c-work-experience>
-      <c-research data-aos="fade-up-left" data-aos-offset="250"></c-research>
-      <c-education data-aos="fade-up-right" data-aos-offset="250"></c-education>
-      <c-projects data-aos="fade-up-left" data-aos-offset="250"></c-projects>
-      <c-achievements
-        data-aos="fade-up-right"
-        data-aos-offset="250"
-      ></c-achievements>
-      <c-community-projects
-        data-aos="fade-up-left"
-        data-aos-offset="250"
-      ></c-community-projects>
-      <c-contact data-aos="fade-up-right" data-aos-offset="250"></c-contact>
+      <HelloWorld />
+      <c-about></c-about>
+      <c-work-experience></c-work-experience>
+      <c-research></c-research>
+      <c-education></c-education>
+      <c-projects></c-projects>
+      <c-achievements></c-achievements>
+      <c-community-projects></c-community-projects>
+      <c-contact></c-contact>
       <c-footer></c-footer>
     </v-main>
   </v-app>
@@ -198,10 +171,8 @@ import Achievements from "./components/Achievements.vue";
 import Education from "./components/Education.vue";
 import Contact from "./components/Contact.vue";
 import Footer from "./components/Footer.vue";
-import PageLoader from "./components/PageLoader.vue";
 import CommunityProjects from "./components/CommunityProjects.vue";
 import Research from "./components/Research.vue";
-import { mapGetters } from "vuex";
 
 export default {
   name: "App",
@@ -219,7 +190,6 @@ export default {
     cEducation: Education,
     cContact: Contact,
     cFooter: Footer,
-    cPageLoader: PageLoader,
     cCommunityProjects: CommunityProjects,
     cResearch: Research,
   },
@@ -280,9 +250,6 @@ export default {
     themeOpposite() {
       return this.$vuetify.theme.dark ? "light" : "dark";
     },
-    ...mapGetters({
-      isLoading: "isLoading",
-    }),
   },
 
   methods: {
@@ -316,44 +283,9 @@ export default {
   --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", monospace;
 }
 
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.3s;
-}
-
-.fade-enter,
-.fade-leave-to {
-  opacity: 0;
-}
-
-/* Enter and leave animations can use different */
-/* durations and timing functions.              */
-.slide-fade-enter-active {
-  transition: all 0.3s ease;
-}
-.slide-fade-leave-active {
-  transition: all 0.3s cubic-bezier(1, 0.5, 0.8, 1);
-}
-.slide-fade-enter, .slide-fade-leave-to
-/* .slide-fade-leave-active below version 2.1.8 */ {
-  transform: translateX(10px);
-  opacity: 0;
-}
-
-.custom-fade-leave-active {
-  transition: all 0.5s cubic-bezier(1, 0.5, 0.8, 1);
-}
-.custom-fade-enter, .custom-fade-leave-to
-/* .slide-fade-leave-active below version 2.1.8 */ {
-  transform: translateY(-50px);
-  opacity: 0;
-}
 body {
   overflow-x: hidden;
   background-color: #101820;
-}
-.aos-init:not(.aos-animate):after {
-  position: fixed;
 }
 .theme--dark.c-bg {
   background-color: #111827 !important;

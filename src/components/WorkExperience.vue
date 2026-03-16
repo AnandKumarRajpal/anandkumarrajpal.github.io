@@ -75,39 +75,15 @@
 </template>
 
 <script>
-import { mapActions } from "vuex";
-import { mapMutations } from "vuex";
+import { experience } from "@/data";
 
 export default {
   name: "c-work-experiences",
   data() {
+    const list = [...experience].sort((a, b) => (a.id < b.id ? 1 : a.id > b.id ? -1 : 0));
     return {
-      experienceList: [],
+      experienceList: list,
     };
-  },
-  created() {
-    this.setLoadingTrue();
-    this.getExperienceList();
-  },
-  methods: {
-    ...mapActions({
-      getExperience: "getExperience",
-    }),
-    getExperienceList() {
-      this.getExperience().then((response) => {
-        this.experienceList = response;
-        this.experienceList.sort(function (a, b) {
-          if (a.id < b.id) return 1;
-          if (a.id > b.id) return -1;
-          return 0;
-        });
-        this.setLoadingFalse();
-      });
-    },
-    ...mapMutations({
-      setLoadingTrue: "SET_LOADING_TRUE",
-      setLoadingFalse: "SET_LOADING_FALSE",
-    }),
   },
 };
 </script>

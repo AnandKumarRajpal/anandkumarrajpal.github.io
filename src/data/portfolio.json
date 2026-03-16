@@ -1,0 +1,237 @@
+{
+  "projects": [
+    {
+      "link": "https://github.com/AnandKumarRajpal/urdu-speech-emotion-recognition-using-voice",
+      "description": [
+        "Extracted audio features such as MFCCs, Chromagram, and Mel-spectrogram from Urdu audio files.",
+        "Built an Artificial Neural Network using <b>Tensorflow</b> library in <b>Python3</b>, to classify Human Speech Emotion based on their voice in the Urdu Language."
+      ],
+      "title": "Urdu Speech Emotion Recognition Using Voice",
+      "skills": [
+        "Python3"
+      ]
+    },
+    {
+      "title": "Flight Simulator",
+      "skills": [
+        "C++"
+      ],
+      "description": [
+        "Implemented a flight simulator using the <b>WebGL</b> (Web Graphics Library) in <b>C++</b> rendered on a GPU."
+      ],
+      "link": "https://github.com/AnandKumarRajpal/computer-graphics-project-1"
+    },
+    {
+      "skills": [
+        "C++"
+      ],
+      "title": "Ray Tracer",
+      "link": "https://github.com/AnandKumarRajpal/computer-graphics-project-2",
+      "description": [
+        "Built a ray tracer in <b>C++</b> with several features including ray casting, shading, different light sources, and Bounding Volume Hierarchy acceleration structure",
+        "Rendered varying resolution scenes on the ray tracer ",
+        "Compared the rendering times with and without the acceleration structure"
+      ]
+    },
+    {
+      "title": "HU Evaluation System",
+      "skills": [
+        "VueJS",
+        "Django"
+      ],
+      "link": null,
+      "description": [
+        "Designed and developed a website using <b>VueJS</b> for frontend and <b>Django</b> for the backend.",
+        "The website enables students to evaluate instructors of Habib University and gives students clear reviews about the instructors. The reviews are available to the entire student body and the instructors"
+      ]
+    },
+    {
+      "skills": [
+        "C++",
+        "SDL"
+      ],
+      "title": "Eco Planet Game",
+      "description": [
+        "The game was developed using <b>C++</b> and <b>SDL</b> library",
+        "The game aims to teach the effects of polluting the planet Earth"
+      ],
+      "link": "https://github.com/AnandKumarRajpal/Eco-Planet-OOP-Project"
+    },
+    {
+      "title": "Hand Gesture Recognition",
+      "skills": [
+        "Python3"
+      ],
+      "description": [
+        "Developed a program utilizing the <b>MediaPipe</b> library to detect key points on hands accurately.",
+        "Created a dataset consisting of three hand gestures by using the aforementioned detection program.",
+        "Constructed an ANN using <b>Python3</b> and the <b>TensorFlow</b> library to classify hand gestures based on the input key points obtained from the detection program."
+      ],
+      "link": "https://github.com/AnandKumarRajpal/hand-gesture-recognition-using-mediapipe"
+    }
+  ],
+  "experience": [
+    {
+      "id": 6,
+      "position": "Software Development Engineer",
+      "path_to_icon": "assets/veeam.png",
+      "name": "Veeam Software",
+      "from": "Feb 2026",
+      "to": "Present",
+      "description": [
+        "Working on data protection and backup software used by customers worldwide.",
+        "Collaborating with a cross-functional team to design, implement, and maintain reliable, high-performance features.",
+        "Debugging and improving existing components with a focus on performance, robustness, and code quality."
+      ]
+    },
+    {
+      "id": 5,
+      "position": "Software Engineer",
+      "path_to_icon": "assets/securiti.svg",
+      "name": "Securiti",
+      "to": "April 2024",
+      "from": "June 2022",
+      "description": [
+        "Primary work involves developing the front end of the product using the VueJS framework.",
+        "Developing new features in accordance with customers' requirements.",
+        "Performing reviews for maintaining standards and identifying inefficient JavaScript code.",
+        "Understanding the required functionality from the Product requirements document (PRD).",
+        "Debugging non-functional code."
+      ]
+    },
+    {
+      "description": [
+        "Developed multiple websites using <b>VueJS</b>",
+        "Developed the frontend of the projects using the <b>Bootstrap-Vue</b>",
+        "Integrated frontend with backend using <b>Axios</b> Implemented state management using <b>Vuex</b>"
+      ],
+      "from": "August 2021",
+      "to": "October 2021",
+      "name": "Appick",
+      "path_to_icon": "assets/appick.png",
+      "position": "Frontend Intern",
+      "id": 4
+    },
+    {
+      "description": [
+        "Helped design daily class content",
+        "Research on topics for daily class content",
+        "Coordinate with Lead Instructor for assignments, projects, and quizzes",
+        "Assist with assignment and project correction",
+        "Assist/Conduct live classes",
+        "Help the team with the admission process by interviewing and screening of students."
+      ],
+      "from": "July 2020",
+      "to": "October 2020",
+      "name": "Circle Women",
+      "path_to_icon": "assets/circle.png",
+      "position": "Assistant Instructor",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "position": "Web Development Intern",
+      "path_to_icon": "assets/fp.png",
+      "description": [
+        "Developed the front-end of their web app using <b>VueJS</b>"
+      ],
+      "name": "FinPocket",
+      "from": "January 2021",
+      "to": "February 2021"
+    },
+    {
+      "description": [
+        {
+          "0": "Python3 Comparison Program:",
+          "1": "Portal Development:"
+        },
+        {
+          "Python3 Comparison Program:": [
+            "The program scrapes the HTML source code and captures the screenshot of the daily build of their web portal and public website.",
+            "The program then compares and points out the differences in the various deployed builds."
+          ],
+          "Portal Development:": [
+            "Developed a full-stack solution (portal) to present the differences pointed out by the <b>Python3</b> program.",
+            "The frontend was implemented using <b>VueJS</b> and the backend used <b>PHP</b>."
+          ]
+        }
+      ],
+      "from": "June 2021",
+      "to": "August 2021",
+      "name": "Securiti",
+      "path_to_icon": "assets/securiti.svg",
+      "id": 3,
+      "position": "SQA Engineering Intern"
+    }
+  ],
+  "achievements": [
+    {
+      "link": null,
+      "iconLink": "assets/scholar.svg",
+      "title": "100% Merit Scholarship",
+      "description": "Undergraduate Studies",
+      "linkTitle": "Habib University"
+    },
+    {
+      "description": "Fall Semester 2021",
+      "linkTitle": "Habib University",
+      "link": null,
+      "iconLink": "assets/scholar.svg",
+      "title": "Dean's Honors List"
+    },
+    {
+      "iconLink": "assets/top50-badge.svg",
+      "link": "https://developers.google.com/community/gdsc-solution-challenge/winners",
+      "title": "Top 50 Solutions",
+      "noFilter": true,
+      "description": "Google Solution Challenge 2022",
+      "linkTitle": "Link to winners page"
+    }
+  ],
+  "research": [
+    {
+      "Venue": "In International Conference on Smart Homes and Health Telematics (ICOST '22)",
+      "Authors": [
+        "Anand Kumar",
+        "Ghani Haider",
+        "Maheen Khan",
+        "Rida Zahid Khan",
+        "Syeda Saleha Raza"
+      ],
+      "DOI": "https://doi.org/10.1007/978-3-031-09593-1_6",
+      "PDF": "saathi-icost-2022.pdf",
+      "Type": "Peer-Reviewed Conference Paper",
+      "Year": "2022",
+      "Title": "SAATHI: An Urdu Virtual Assistant for Elderly Aging in Place"
+    },
+    {
+      "Authors": [
+        "Anand Kumar",
+        "Antony Albert Raj Irudayaraj",
+        "Ishita Chandra",
+        "Adwait Sharma",
+        "Aditya Shekhar Nittala"
+      ],
+      "Venue": "In Proceedings of the 2025 ACM Symposium on User Interface Software and Technology (UIST '25)",
+      "DOI": "https://doi.org/10.1145/3746059.3747614",
+      "PDF": "sparseemg-uist-2025.pdf",
+      "Video": "https://youtu.be/Glz_zT70TPc?si=U-lhAqBseDw2k4GS",
+      "Year": "2025",
+      "Type": "Peer-Reviewed Conference Paper",
+      "Title": "SparseEMG: Computational Design of Sparse EMG Layouts for Sensing Gestures"
+    },
+    {
+      "Authors": [
+        "Ben Pearman",
+        "Anand Kumar",
+        "Wesley Willett",
+        "Aditya Shekhar Nittala"
+      ],
+      "Venue": "In Adjunct Proceedings of Graphics Interface 2025 (Poster, GI '25)",
+      "Title": "RF-Interfaces For User Input & Enhanced Spatial Perception",
+      "Type": "Poster",
+      "Year": "2025",
+      "PDF": "rfinterfaces-gi-2025.pdf"
+    }
+  ]
+}

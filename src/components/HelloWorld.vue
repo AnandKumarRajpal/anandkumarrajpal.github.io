@@ -15,7 +15,7 @@
             <h1 class="main-text">
               Hello, I'm <br />
               <span class="darkText">Anand Kumar</span> <br />
-              MSc. CS @ University of Calgary
+              SDE @ Veeam Software
             </h1>
             <v-btn
               class="gradient-border-color mt-4 darkLight"

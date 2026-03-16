@@ -8,13 +8,13 @@
         </v-row>
 
         <p>
-          Hi! 👋 I'm Anand Kumar, an MSc. Computer Science (Thesis) student at the University of Calgary, supervised by Aditya Shekhar Nittala. I'm passionate about solving complex problems and exploring innovative technologies at the intersection of Artificial Intelligence 🤖 and Human-Computer Interaction 🖥️.
+          Hi! 👋 I'm Anand Kumar, a Software Development Engineer at Veeam Software. I hold an MSc in Computer Science (Thesis) from the University of Calgary, where I worked under Aditya Shekhar Nittala.
         </p>
         <p>
-          My research focuses on designing intelligent and adaptive systems that enhance accessibility and usability. I'm particularly interested in machine learning, multimodal interaction techniques, and creating human-centered AI solutions that positively impact people's lives 🌱.
+          I'm passionate about solving complex problems at the intersection of Artificial Intelligence 🤖 and Human-Computer Interaction 🖥️. My research focuses on designing intelligent, adaptive systems that enhance accessibility and usability. I'm particularly interested in machine learning, multimodal interaction, and human-centered AI solutions that positively impact people's lives 🌱.
         </p>
         <p>
-          Previously, I completed my BSc in Computer Science at Habib University, Karachi, and worked as a Software Engineer for 2+ years, where I developed end-to-end applications, optimized performance, and delivered user-focused solutions.
+          Previously, I earned my BSc in Computer Science from Habib University, Karachi, and worked as a Software Engineer for over two years, developing end-to-end applications, optimizing performance, and delivering user-focused solutions.
         </p>
       </v-col>
     </v-row>

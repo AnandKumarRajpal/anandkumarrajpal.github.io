@@ -41,8 +41,7 @@
 </template>
 
 <script>
-import { mapActions } from "vuex";
-import { mapMutations } from "vuex";
+import { projects } from "@/data";
 import ProjectCard from "./ProjectCard.vue";
 
 export default {
@@ -50,13 +49,9 @@ export default {
   components: {
     cProjectCard: ProjectCard,
   },
-  created() {
-    this.setLoadingTrue();
-    this.getProjectsList();
-  },
   data() {
     return {
-      projectsList: [],
+      projectsList: projects,
     };
   },
   computed: {
@@ -70,24 +65,11 @@ export default {
     },
   },
   methods: {
-    ...mapActions({
-      getProjects: "getProjects",
-    }),
     getCols(idx) {
       if (this.$vuetify.breakpoint.xs || this.$vuetify.breakpoint.sm)
         return this.projectsList.slice(idx, idx + 1);
       return this.projectsList.slice(3 * (idx - 1), 3 * idx);
     },
-    getProjectsList() {
-      this.getProjects().then((response) => {
-        this.projectsList = response;
-        this.setLoadingFalse();
-      });
-    },
-    ...mapMutations({
-      setLoadingTrue: "SET_LOADING_TRUE",
-      setLoadingFalse: "SET_LOADING_FALSE",
-    }),
   },
 };
 </script>

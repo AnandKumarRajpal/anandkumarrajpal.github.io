@@ -43,38 +43,12 @@
 
 <script>
 // import AchievementCard from "./AchievementCard.vue";
-import { mapActions, mapMutations } from "vuex";
+import { research } from "@/data";
 
 export default {
   name: "c-research",
-  data() {
-    return {
-      fullPapers: [],
-      posters: [],
-    };
-  },
-  created() {
-    this.setLoadingTrue();
-    this.getResearchList();
-  },
-  components: {
-    // cAchievementCard: AchievementCard,
-  },
+  components: {},
   methods: {
-    ...mapActions({
-      getResearch: "getResearch",
-    }),
-    getResearchList() {
-      this.getResearch().then((response) => {
-        this.fullPapers = response.filter(item => item["Type"] === "Peer-Reviewed Conference Paper");
-        this.posters = response.filter(item => item["Type"] === "Poster");
-        this.setLoadingFalse();
-      });
-    },
-    ...mapMutations({
-      setLoadingTrue: "SET_LOADING_TRUE",
-      setLoadingFalse: "SET_LOADING_FALSE",
-    }),
     getPaperTitle(paper) {
       let authors = paper["Authors"].map(author => {
         if (author === "Anand Kumar") {
@@ -103,10 +77,16 @@ export default {
   },
   computed: {
     papersList() {
-      return this.fullPapers.slice().reverse();
+      return research
+        .filter((item) => item.Type === "Peer-Reviewed Conference Paper")
+        .slice()
+        .reverse();
     },
     postersList() {
-      return this.posters.slice().reverse();
+      return research
+        .filter((item) => item.Type === "Poster")
+        .slice()
+        .reverse();
     },
   },
 };
