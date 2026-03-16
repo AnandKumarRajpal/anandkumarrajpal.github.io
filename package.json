@@ -49,5 +49,12 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "overrides": {
+    "serialize-javascript": "^7.0.3",
+    "webpack-dev-server": "^5.2.1",
+    "@grpc/grpc-js": "^1.8.22",
+    "cross-spawn": "^7.0.5",
+    "postcss": "^8.4.31"
+  }
 }
